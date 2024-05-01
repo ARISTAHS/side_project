@@ -75,6 +75,8 @@
 
 /* ------- 기본 css 세팅 ------------ */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -83,11 +85,17 @@
 
 html,
 body {
+  width: 100%;
+  height: 100vh;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #383838;
   max-width: 100vw;
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -95,11 +103,27 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
+ul,li{
+  list-style:none;
+ }
 
 a {
-  color: inherit;
+  color: inherit; /* 부모 속성 상속*/
   text-decoration: none;
 }
+
+input[type=text] , input[type=email] ,input[type=password] {
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d9e0e6;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+}
+button:focus{border: none;}
 
 

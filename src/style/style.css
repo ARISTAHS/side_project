@@ -1,0 +1,23 @@
+@import url(./globals.css);
+
+/* header css */
+#header{
+  width: 1200px;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  & h1{
+    display: inline-block;
+    width: 80px;
+    height: auto;
+  } 
+  & #nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+  }
+}
