@@ -1,8 +1,12 @@
 
-import styles from "../style/page.module.css";
+import "../style/style.css";
 
-export default function Home() {
+export default function Main() {
   return (
-    <>프로젝트 시작전</>
+    <>
+      <div id="wrap">
+          main 영역 확인
+      </div>
+    </>
   );
 }

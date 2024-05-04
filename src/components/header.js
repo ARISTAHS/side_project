@@ -1,11 +1,11 @@
 "use client" //CSR 형식을 사용하려면 필수
 
 // import { headers } from "next/headers"
-import Link from "next/link"
-import "../style/style.css" 
+import Link from "next/link";
+import "../style/style.css";
 import Image from "next/image";
 
-export default function headers({ children }){
+export default function headers(){
   return(
     <> 
       <header id="header">

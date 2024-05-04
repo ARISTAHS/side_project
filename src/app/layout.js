@@ -1,6 +1,6 @@
 
 import "../style/globals.css";
-
+import Header from "../components/header";
 
 export const metadata = {
   title: "title 미정",
@@ -10,7 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
