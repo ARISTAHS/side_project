@@ -1,28 +1,46 @@
 @import url(./globals.css);
 
-/* header css */
-#header{
-  width: 1200px;
-  height: 60px;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  & h1{
-    display: inline-block;
-    width: 80px;
-    height: auto;
-  } 
-  & #nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2%;
-  }
-}
 #wrap{
   width: 100%;
   height: 100%;
   background: red;
+
+  /* header css */
+  & #header{
+  width: 1200px;
+  height: 60px;
+  background: skyblue; /* 헤더 영역 확인*/
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+    & h1{
+      display: inline-block;
+      width: 80px;
+      height: 60px;
+    } 
+    & #nav{
+      border: 1px solid #f8f8f8;
+
+      & .nav_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        & li{
+          width: 110px;
+          height: 60px;
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+
+  & #footer{
+    display: block;
+  }
 }
