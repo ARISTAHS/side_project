@@ -3,7 +3,7 @@
 #wrap{
   width: 100%;
   height: 100%;
-  background: red;
+  /* background: red; */
 
   /* header css */
   & #header{
@@ -37,6 +37,38 @@
           font-size: 1.1em;
         }
       }
+    }
+  }
+
+  & .container{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 150px;
+    background: #999;
+
+    & .table_wrap{
+      width: 100%;
+      border: 1px solid #ccc;
+
+      & table{
+        & thead{
+          width: 100%;
+
+          & th{
+            /* width: 100%; */
+          }
+        }
+        & tbody{
+          & tr{
+
+            & td{
+              width: 100%;
+              height: 40px;
+            }
+          }
+        }
+      }
+
     }
   }
 
