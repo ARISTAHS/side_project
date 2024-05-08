@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+작업 목적 : Next.js 14 버전을 기반으로 Open API의 데이터를 불러와보기. 
+
+문제점 : fecthData.js 에 api 호출 코드를 작성 후 content.js에 import 하여 확인해보니 api 데이터가 화면에 나타나기까지 로딩 시간 존재 확인. -> 이유 와 해결 방법 찾는중
