@@ -1,4 +1,4 @@
-export default async function fetchData(){
+export async function fetchData(){
   
   try{
 
