@@ -1,6 +1,6 @@
 "use client"
 
-import fetchData from "@/api/fetchData"; // fetchData 연결
+import {fetchData} from "@/api/fetchData"; // fetchData 연결
 import { useEffect, useState } from "react";
 
 export default function Content(){
