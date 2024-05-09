@@ -26,14 +26,30 @@ export default function Content(){
     <>
      {data && (
       <div className="table_wrap">
-        <h2>사용자 목록</h2>
+        <h2>부동산 실거래가 정보</h2>
         <table>
+          <colgroup>
+            <col width='auto'></col>
+            <col width='auto'></col>
+            <col width='auto'></col>
+            <col width='auto'></col>
+            <col width='15%'></col>
+            <col width='auto'></col>
+            <col width='auto'></col>
+            <col width='auto'></col>
+            <col width='auto'></col>
+          </colgroup>
           <thead>
             <tr>
               <th>년도</th>
               <th>자치구명</th>
               <th>건물용도</th>
               <th>법정동코드</th>
+              <th>건물명</th>
+              <th>계약일</th>
+              <th>거래금액</th>
+              <th>건물면적</th>
+              <th>토지면적</th>
             </tr>
           </thead>
           <tbody>
@@ -43,6 +59,11 @@ export default function Content(){
                 <td>{item.SGG_NM}</td>
                 <td>{item.BJDONG_CD}</td>
                 <td>{item.HOUSE_TYPE}</td>
+                <td>{item.BLDG_NM}</td>
+                <td>{item.DEAL_YMD}</td>
+                <td>{item.OBJ_AMT}</td>
+                <td>{item.BLDG_AREA}</td>
+                <td>{item.TOT_AREA}</td>
               </tr>
             ))}
           </tbody>

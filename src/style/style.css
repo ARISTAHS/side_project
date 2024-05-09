@@ -7,12 +7,12 @@
 
   /* header css */
   & #header{
-  width: 1200px;
-  height: 60px;
+  width: 100%;
+  height: 70px;
   background: skyblue; /* 헤더 영역 확인*/
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%;
+  transform: translateX(-50%); */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -21,6 +21,14 @@
       display: inline-block;
       width: 80px;
       height: 60px;
+      overflow: hidden;
+      a{
+        border: 1px solid red;
+        img{
+          width: auto;
+          height: auto;
+        }
+      }
     } 
     & #nav{
       border: 1px solid #f8f8f8;
@@ -28,13 +36,17 @@
       & .nav_wrap{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         gap: 10px;
 
         & li{
           width: 110px;
           height: 60px;
           font-size: 1.1em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
         }
       }
     }
@@ -43,7 +55,7 @@
   & .container{
     width: 100%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 100px;
     background: #999;
 
     & .table_wrap{
@@ -51,18 +63,19 @@
       border: 1px solid #ccc;
 
       & table{
+        width: 100%;
+        text-align: center;
         & thead{
           width: 100%;
 
           & th{
-            /* width: 100%; */
+            
           }
         }
         & tbody{
           & tr{
 
             & td{
-              width: 100%;
               height: 40px;
             }
           }
@@ -73,6 +86,27 @@
   }
 
   & #footer{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: #ddd;
+
+    & .address_wrap{
+      text-align: center;
+      padding: 20px 0;
+
+      & address{
+        & p{
+          font-size: .8em;
+          color: #383838;
+        }
+      }
+      & span.copyright{
+        font-size: .8em;
+        color: #f8f8f8;
+      }
+    }
   }
 }
