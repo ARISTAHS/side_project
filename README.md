@@ -3,6 +3,8 @@
 
 ## 문제점
  : 1. fecthData.js 에 api 호출 코드를 작성 후 content.js에 import 하여 확인해보니 api 데이터가 화면에 나타나기까지 로딩 시간 존재 확인. -> 이유 와 해결 방법 찾는중
+  -> api 호출은 성공했으나 시간이 걸림 ![image](https://github.com/ARISTAHS/side_project/assets/118969653/5dbfcf18-d8ca-4311-880b-98bca01be9c9)
+
    
 
 
