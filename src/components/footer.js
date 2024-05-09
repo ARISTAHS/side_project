@@ -1,4 +1,5 @@
-"use client" //CSR 형식을 사용하려면 필수
+// "use client" 
+//CSR 형식을 사용하려면 필수
 
 import "../style/style.css"
 // import Image from "next/image";
