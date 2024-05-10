@@ -11,7 +11,7 @@ export default function Content(){
     const fetchDataFromAPI = async ()=>{
       try{
         const result = await fetchData();
-        console.log('result')
+        // console.log('result')
         console.log(result)
         setData(result.tbLnOpendataRtmsV.row); // 데이터 설정
       }catch (error) {
@@ -21,7 +21,13 @@ export default function Content(){
 
     fetchDataFromAPI(); // 데이터 가져오기 함수 호출
   }, []);
-  
+
+  // useEffect(() => {
+  //   if (Data) {
+  //     setData(fetchData.tbLnOpendataRtmsV.row);
+  //   }
+  // }, [Data]);
+
   return(
     <>
      {data && (
