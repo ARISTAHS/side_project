@@ -11,8 +11,6 @@
   height: 70px;
   background: skyblue; /* 헤더 영역 확인*/
   position: fixed;
-  /* left: 50%;
-  transform: translateX(-50%); */
   display: flex;
   align-items: center;
   justify-content: space-around;

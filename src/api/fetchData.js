@@ -2,19 +2,14 @@ export async function fetchData(){
   
   try{
 
-    const baseURL = "http://openapi.seoul.go.kr:8088/574462627370617239374b59626f6b/json/tbLnOpendataRtmsV";
-    const key = "인증키";
-    const service = "tbLnOpendataRtmsV";
-    const startIndex = 1;
-    const endIndex = 500;
-    // const accYear = 2024;
-    // const sggNm = "강남구";
-    // const bjdongCd = "법정동코드";
-    // const houseType = "건물용도";
-    const url = `${baseURL}/1/500?key=${key}&service=${service}&start_index=${startIndex}&end_index=${endIndex}`;
-    
-    // const url = `${baseURL}/1/500?key=${key}&service=${service}&start_index=${startIndex}&end_index=${endIndex}&acc_year=${accYear}&sgg_nm=${sggNm}&bjdong_cd=${bjdongCd}&house_type=${houseType}`
-
+    const url = "http://openapi.seoul.go.kr:8088/574462627370617239374b59626f6b/json/tbLnOpendataRtmsV/1/500";
+    // const key = "574462627370617239374b59626f6b";
+    // const type = 'json';
+    // const service = "tbLnOpendataRtmsV";
+    // const startIndex = 1;
+    // const endIndex = 500;
+    // const url = `${baseURL}&?key=${key}&type=${type}&service=${service}&start_index=${startIndex}&end_index=${endIndex}`;
+        
     const response = await fetch(url);
     // console.log(response); //콘솔 확인
 

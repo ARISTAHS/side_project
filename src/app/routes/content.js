@@ -35,15 +35,15 @@ export default function Content(){
         <h2>부동산 실거래가 정보</h2>
         <table>
           <colgroup>
-            <col width='auto'></col>
-            <col width='auto'></col>
-            <col width='auto'></col>
-            <col width='auto'></col>
-            <col width='15%'></col>
-            <col width='auto'></col>
-            <col width='auto'></col>
-            <col width='auto'></col>
-            <col width='auto'></col>
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: '15%' }}></col> 
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: 'auto' }}></col>
+            <col style={{ width: 'auto' }}></col>
           </colgroup>
           <thead>
             <tr>
