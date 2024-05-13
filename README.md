@@ -16,13 +16,12 @@
 
 
     -> 쿼리 문자열이 아닌 일반 형식으로 작성 후 console.log 확인
-    ![image](https://github.com/ARISTAHS/side_project/assets/118969653/fe6a6ce8-f115-4004-b1ca-31bbb9511095)
-    ![image-1](https://github.com/ARISTAHS/side_project/assets/118969653/dc082794-a4d5-4a42-abae-bb1eebeaa9af)
+    ![image](https://github.com/ARISTAHS/side_project/assets/118969653/328ea8b6-35cc-4abe-9611-33adff549505)
+    ![image-1](https://github.com/ARISTAHS/side_project/assets/118969653/5e1753d2-813d-4ffe-ada4-d29a07597d4f)
 
-    ![alt text](image.png)
-    ![alt text](image-1.png)
+
+
     
-
 
 
  3. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
@@ -34,8 +33,6 @@
 
     -> 테스트로 적용하였을때 개발자 도구의 Cookie에 입력한 id 값 저장 확인
     ![image-2](https://github.com/ARISTAHS/side_project/assets/118969653/dea1ce3c-4245-4c3f-9609-62aae0f4e9ea)
-
-  ![alt text](image-2.png)
 
    
 
