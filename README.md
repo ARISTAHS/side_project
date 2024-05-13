@@ -15,6 +15,12 @@
     -> 열린공공데이터 사이트에서 권장하는 방식은 '경로 매개변수'방식 임을 확인. 
 
 
+    -> 쿼리 문자열이 아닌 일반 형식으로 작성 후 console.log 확인
+    ![alt text](image.png)
+    ![alt text](image-1.png)
+    
+
+
 
  2. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
  3. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js
