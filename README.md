@@ -2,7 +2,8 @@
  : Next.js 14 버전을 기반으로 Open API의 데이터를 호출 및 Vercel을 이용한 배포 과정까지 작업.
 
 ## 문제점
- : 1. fecthData.js 에 api 호출 코드를 작성 후 content.js에 import 하여 확인해보니 api 데이터가 화면에 나타나기까지 로딩 시간 존재 확인. -> 이유 와 해결 방법 찾는중
+ : 
+ 1. fecthData.js 에 api 호출 코드를 작성 후 content.js에 import 하여 확인해보니 api 데이터가 화면에 나타나기까지 로딩 시간 존재 확인. -> 이유 와 해결 방법 찾는중
   -> api 호출은 성공했으나 시간이 걸림 ![image](https://github.com/ARISTAHS/side_project/assets/118969653/5dbfcf18-d8ca-4311-880b-98bca01be9c9)
 
 
@@ -14,7 +15,7 @@
 
   -> 열린공공데이터 사이트에서 권장하는 방식은 '경로 매개변수'방식 임을 확인. 
 
-  
+
 
  2. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
  3. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js
