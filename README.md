@@ -15,7 +15,7 @@
     -> 열린공공데이터 사이트에서 권장하는 방식은 '경로 매개변수'방식 임을 확인. 
 
 
-    -> 쿼리 문자열이 아닌 일반 형식으로 작성 후 console.log 확인
+    -> 쿼리 문자열이 아닌 일반 형식으로 작성 후 console.log 확인 <br/>
     ![image](https://github.com/ARISTAHS/side_project/assets/118969653/328ea8b6-35cc-4abe-9611-33adff549505)
     ![image-1](https://github.com/ARISTAHS/side_project/assets/118969653/5e1753d2-813d-4ffe-ada4-d29a07597d4f)
 
