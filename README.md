@@ -16,20 +16,25 @@
 
 
     -> 쿼리 문자열이 아닌 일반 형식으로 작성 후 console.log 확인
+    ![image](https://github.com/ARISTAHS/side_project/assets/118969653/fe6a6ce8-f115-4004-b1ca-31bbb9511095)
+    ![image-1](https://github.com/ARISTAHS/side_project/assets/118969653/dc082794-a4d5-4a42-abae-bb1eebeaa9af)
+
     ![alt text](image.png)
     ![alt text](image-1.png)
     
 
 
 
- 2. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
- 3. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js
- 4. 기본 공통 기능 js는 모두 components 파일로 정리
- 5. 로그인 화면의 기능 중 '아이디 저장' 기능 선 구현
+ 3. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
+ 4. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js
+ 5. 기본 공통 기능 js는 모두 components 파일로 정리
+ 6. 로그인 화면의 기능 중 '아이디 저장' 기능 선 구현
 
     -> 프로젝트가 크지 않기 때문에 Cookie로만 구현 
 
     -> 테스트로 적용하였을때 개발자 도구의 Cookie에 입력한 id 값 저장 확인
+    ![image-2](https://github.com/ARISTAHS/side_project/assets/118969653/dea1ce3c-4245-4c3f-9609-62aae0f4e9ea)
+
   ![alt text](image-2.png)
 
    
