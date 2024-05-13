@@ -2,11 +2,13 @@
 //CSR 형식을 사용하려면 필수
 
 import "../style/style.css"
+import TopMove from "./topBtn";
 // import Image from "next/image";
 
 export default function footer(){
   return(
     <>
+      <TopMove/>
       <footer id="footer">
         {/* <div className="footer_logo">
            <Image src="" alt="푸터 영역의 로고" />
