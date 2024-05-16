@@ -8,8 +8,8 @@ import TopMove from "./topBtn";
 export default function footer(){
   return(
     <>
-      <TopMove/>
       <footer id="footer">
+        <TopMove/>
         {/* <div className="footer_logo">
            <Image src="" alt="푸터 영역의 로고" />
         </div> */}
