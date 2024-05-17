@@ -96,7 +96,7 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    /* position: relative; */
+    position: relative;  /* 해당 속성 지우니 버튼 이동 중 걸림 현상 발생.*/
     background: #ddd;
 
     & .address_wrap{
