@@ -1,6 +1,6 @@
 "use client"
 
-// import '../style/topBtn.css';
+import '../style/topBtn.css';
 import { useState, useEffect } from "react";
 
 export default function TopMove(){
@@ -10,7 +10,7 @@ export default function TopMove(){
   // 스크롤 이벤트 핸들러
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
-
+    
     // 일정 위치 이상으로 스크롤되면 버튼 보이기
     setShowBtn(currentScrollY > 100);
     
@@ -46,7 +46,7 @@ export default function TopMove(){
   return(
     <>
       <div id="top_btn">
-        <button className={ `${showBtn ? 'hidden': 'btn'}`} type="button" onClick={scrollTop}>
+        <button className={ `${showBtn ? 'btn': 'hidden'}`} type="button" onClick={scrollTop}>
           <p>TOP</p>
         </button>
       </div>

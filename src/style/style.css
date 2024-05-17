@@ -3,8 +3,7 @@
 #wrap{
   width: inherit;
   position: relative;
-  /* overflow-y: scroll; */
-  /* height: inherit; */
+  height: 100%;
 
   /* header css */
   & #header{
@@ -91,28 +90,8 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    position: relative;
+    /* position: relative; */
     background: #ddd;
-
-    #top_btn{
-      position: fixed;
-      right: 30px;
-      bottom: 100px;
-    
-     & .btn{
-      width: 100px;
-      height: 100px;
-      border: 1px solid blue;
-      background: skyblue;
-      border-radius: 100px;
-
-        & p{
-          text-align: center;
-          color: #fff;
-        }
-     }
-      
-    }
 
     & .address_wrap{
       text-align: center;

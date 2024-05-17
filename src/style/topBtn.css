@@ -1,4 +1,4 @@
-/* #top_btn{
+#top_btn{
   position: fixed;
   right: 30px;
   bottom: 100px;
@@ -9,14 +9,11 @@
   border: 1px solid blue;
   background: skyblue;
   border-radius: 100px;
-  opacity: 0;
-  transition: opacity .3s ease-in-out;
 
-
-    & span{
+    & p{
       text-align: center;
       color: #fff;
     }
  }
   
-} */
+}

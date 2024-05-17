@@ -1,6 +1,3 @@
-// "use client" 
-//CSR 형식을 사용하려면 필수
-
 import "../style/style.css"
 import TopMove from "./topBtn";
 // import Image from "next/image";
