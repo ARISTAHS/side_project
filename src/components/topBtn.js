@@ -34,7 +34,6 @@ export default function TopMove(){
   console.log(handleScroll);
   console.log(showBtn);
   
-
   // 최상단으로 스크롤 이동하는 함수
   function scrollTop(){
     // 최상단으로 버튼이 이동 중 중간 걸림 현상 발생. -> 제한 시간 두기
