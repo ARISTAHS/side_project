@@ -54,21 +54,27 @@
   & .container{
     width: 100%;
     margin: 0 auto;
-    padding-top: 100px;
     background: #999;
 
     & .table_wrap{
       width: 100%;
       border: 1px solid #ccc;
+      text-align: center;
+
+      h2{
+        padding: 30px;
+        border-bottom: 2px solid #f9f9f9;
+      }
 
       & table{
         width: 100%;
         text-align: center;
         & thead{
           width: 100%;
+          background: #fff;
 
           & th{
-            
+            height: 55px;
           }
         }
         & tbody{

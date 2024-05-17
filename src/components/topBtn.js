@@ -37,10 +37,13 @@ export default function TopMove(){
 
   // 최상단으로 스크롤 이동하는 함수
   function scrollTop(){
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
+    // 최상단으로 버튼이 이동 중 중간 걸림 현상 발생. -> 제한 시간 두기
+    setTimeout(()=>{   
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }, 1);
   }
 
   return(
