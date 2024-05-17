@@ -19,7 +19,7 @@ export default function headers(){
         <nav id="nav">
           <ul className="nav_wrap">
             <li>
-              <Link href="/">
+              <Link href="../app/Cost/realCost.js">
                 <span>메뉴1</span>
               </Link>
             </li>
@@ -34,8 +34,8 @@ export default function headers(){
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <span>소개</span>
+              <Link href="../app/login/page.js">
+                <span>로그인</span>
               </Link>
             </li>
           </ul>

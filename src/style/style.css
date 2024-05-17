@@ -56,37 +56,34 @@
     margin: 0 auto;
     background: #999;
 
-    & .table_wrap{
-      width: 100%;
-      border: 1px solid #ccc;
-      text-align: center;
+    .content_wrap{
+      /* height: 100%; */
+      min-height: 1000px;
+      
+      ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-      h2{
-        padding: 30px;
-        border-bottom: 2px solid #f9f9f9;
-      }
+        li{
+          width: 500px;
+          height: 500px;
+          border: 1px solid orangered;
 
-      & table{
-        width: 100%;
-        text-align: center;
-        & thead{
-          width: 100%;
-          background: #fff;
+          a{
+            background: #277ff9;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-          & th{
-            height: 55px;
-          }
-        }
-        & tbody{
-          & tr{
-
-            & td{
-              height: 40px;
+            span{
+              font-size: 1.2em;
+              color: #fff;
             }
           }
         }
       }
-
     }
   }
 
