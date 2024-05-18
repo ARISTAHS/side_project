@@ -1,6 +1,6 @@
 "use client"
 
-import "../../style/sub_page.css";
+import "@/style/sub_page.css";
 import {fetchData} from "@/api/fetchData"; // fetchData 연결
 import { useEffect, useState } from "react";
 
