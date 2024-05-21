@@ -10,6 +10,7 @@ export async function fetchData2(){
 
     //const url = baseUrl+key+type+service+startIndex+endIndex;
     const url = `${baseUrl}${key}${type}${service}${startIndex}${endIndex}`;
+    //const url = `${baseUrl}?key=${key}&type=${type}&servic=${service}&startIndex=${startIndex}&endIndex${endIndex}`;
     console.log(url); // url 형식 확인
 
     const response = await fetch(url);
