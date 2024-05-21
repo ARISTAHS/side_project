@@ -3,7 +3,7 @@
 
 ## 프로젝트 기록
  1. fecthData.js 에 api 호출 코드를 작성 후 content.js에 import 하여 확인해보니 api 데이터가 화면에 나타나기까지 로딩 시간 존재 확인. -> 이유 와 해결 방법 찾는중
-  -> api 호출은 성공했으나 시간이 걸림 ![image](https://github.com/ARISTAHS/side_project/assets/118969653/5dbfcf18-d8ca-4311-880b-98bca01be9c9)
+    -> api 호출은 성공했으나 시간이 걸림 ![image](https://github.com/ARISTAHS/side_project/assets/118969653/5dbfcf18-d8ca-4311-880b-98bca01be9c9)
 
 
     -> fecthData.js 의 URL에 포함된 필수 요청인자를 변수로 따로 담아서 보기 쉽게 시도 중. 
@@ -27,12 +27,12 @@
     
 
 
- 3. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
- 4. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. <br/>
+ 2. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
+ 3. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. <br/>
     -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js <br/> -> 파일 구조 변경. 
     
- 5. 기본 공통 기능 js는 모두 components 파일로 정리
- 6. 로그인 화면의 기능 중 '아이디 저장' 기능 선 구현
+ 4. 기본 공통 기능 js는 모두 components 파일로 정리
+ 5. 로그인 화면의 기능 중 '아이디 저장' 기능 선 구현
 
     -> 프로젝트가 크지 않기 때문에 Cookie로만 구현 
 
