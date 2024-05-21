@@ -28,7 +28,9 @@
 
 
  3. 보안을 이유로 baseURL을 .env.local로 변경 할 계획.
- 4. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js
+ 4. 현재 api 데이터를 바로 확인하고자 content.js에 바로 보여지게 했으나 api 종류에 맞게 바꿀 계획. <br/>
+    -> 실거래 api : realCost.js  , 전월세가 api : rentCost.js <br/> -> 파일 구조 변경. 
+    
  5. 기본 공통 기능 js는 모두 components 파일로 정리
  6. 로그인 화면의 기능 중 '아이디 저장' 기능 선 구현
 
