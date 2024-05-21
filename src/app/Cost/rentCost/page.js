@@ -15,7 +15,7 @@ export default function RentCost(){
         const result = await fetchData2();
         console.log(result); // 데이터 확인
 
-        setData(result.tbLnOpendataRtmsV.row);
+        setData(result.tbLnOpendataRentV.row); //데이터 RentV 안에 row
       }catch(error){
         console.log('API 데이터 호출 중 문제 발생.', error) 
       }

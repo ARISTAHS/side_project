@@ -8,7 +8,8 @@ export async function fetchData2(){
     const startIndex = "1/";
     const endIndex = 400;
 
-    const url = `${baseUrl}?${key}&${type}&${service}&${startIndex}&${endIndex}`;
+    const url = baseUrl+key+type+service+startIndex+endIndex;
+    // const url = `${baseUrl}?${key}&${type}&${service}&${startIndex}&${endIndex}`;
 
     const response = await fetch(url);
     console.log(response); // url 응답 확인

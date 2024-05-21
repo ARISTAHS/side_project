@@ -12,8 +12,8 @@ export default function RealCost(){
     const fetchDataFromAPI = async ()=>{
       try{
         const result = await fetchData();
-        // console.log('result')
-        console.log(result)
+        console.log(result);
+        
         setData(result.tbLnOpendataRtmsV.row); // 데이터 설정
       }catch (error) {
         console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
