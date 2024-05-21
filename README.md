@@ -19,6 +19,9 @@
     ![image](https://github.com/ARISTAHS/side_project/assets/118969653/328ea8b6-35cc-4abe-9611-33adff549505)<br/>
     ![image-1](https://github.com/ARISTAHS/side_project/assets/118969653/5e1753d2-813d-4ffe-ada4-d29a07597d4f)
 
+    -> 부동산 전월세가 api 데이터 호출 중 오류 발생. 메시지 확인 / 원인 파악 중 <br/>
+    ![화면 캡처 2024-05-21 092914](https://github.com/ARISTAHS/side_project/assets/118969653/3468869f-7b4a-4979-b01e-3d5d480d38fb)
+
 
 
     
