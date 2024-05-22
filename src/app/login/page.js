@@ -1,11 +1,17 @@
-import Login from '@/app/login/login';
+import {Remember} from '@/app/login/login_remeber';
+
 
 export default function LoginLayout(){
 
   return(
-    <>
-     <Login />
-    </>
+    <div className='login_layout'>
+      
+      <form method='post' >
+
+
+      </form>
+      
+    </div>
   );
     
 
