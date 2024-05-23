@@ -19,23 +19,23 @@ export default function headers(){
         <nav id="nav">
           <ul className="nav_wrap">
             <li>
-              <Link href="../app/Cost/realCost.js">
-                <span>메뉴1</span>
+              <Link href="../app/Cost/realCost">
+                <span>실거래가</span>
+              </Link>
+            </li>
+            <li>
+              <Link href="../app/Cost/rentCost">
+                <span>전월세</span>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <span>메뉴2</span>
+                <span>미정</span>
               </Link>
             </li>
             <li>
-              <Link href="/">
-                <span>설명</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="../app/login/page.js">
-                <span>로그인</span>
+              <Link href="../app/login">
+                <span>login</span>
               </Link>
             </li>
           </ul>

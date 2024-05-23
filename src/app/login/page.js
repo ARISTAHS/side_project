@@ -1,42 +1,43 @@
 'use client';
 
-import {Remember} from '@/app/login/login_remeber';
-import { useEffect } from 'react';
+import '@/app/login/login_remeber';
+// import { useEffect } from 'react';
 
 
-export default function LoginLayout(){
+export default function LoginForm(){
 
   //login_remember 기능 연결
-  useEffect(()=>{
-    Remember();
-  }, []);
+  // useEffect(()=>{
+  //   Remember();
+  // }, []);
 
   return(
     <div className='login_layout'>
       
-      <form method='post' > 
+      <form method='post'> 
         <fieldset>
         
           <div class="login_area">
-            <div class="top">
-              {/* <img src="/images/user/logo_3_footer.png" alt="기술가치평가협회"> */}
-            </div>
-            <div class="bottom">
-                <div class="input_area clearfix">
+           
+            <div class="form_wrap">
+                <div class="input_area">
+
                   <p class="text">
-                    <span>AI바우처에 오신 것을 환영합니다.</span>
-                    로그인하여 서비스를 이용해보세요
+                    <span>로그인 쿠키 기억하기 기능 구현 테스트.</span>
                   </p>
-                  {/* <p class="text">${loginErrorMsg}</p> */}
-                  <div class="login_left">
+                  
+                  <div class="login_input_wrap">
+
                     <div class="login_input">
                       <label for="idTxt">아이디</label>
-                      <input type="text"  id="user_id" name="user_id"  class="input100p" tabindex="1" placeholder="아이디" validation="true"  />
+                      <input type="text"  id="user_id" name="user_id"  class="input100p" tabindex="1" placeholder="아이디를 입력하세요." onFocus="this.placeholder=''" onBlur="this.placeholder='아이디를 입력하세요.'" validation="true"  />
                     </div>
+
                     <div class="login_input">
                       <label for="pwTxt">비밀번호</label>
-                      <input type="password" id="password" name="password"  class="input100p" tabindex="2" value="" placeholder="비밀번호" validation="true" />
+                      <input type="password" id="password" name="password"  class="input100p" tabindex="2" value="" min="1" max="12" placeholder="비밀번호를 입력하세요." onFocus="this.placeholder=''" onBlur="this.placeholder='비밀번호를 입력하세요.'" validation="true" />
                     </div> 
+
                   </div>
 
                   <div class="ckeck_box">
@@ -45,10 +46,10 @@ export default function LoginLayout(){
                   </div>
                   
                   <div class="btn_area">
-                      <button class="btn btn-primary" type="submit" tabindex="3">로그인</button> 
+                      <button class="btn" type="submit" tabindex="3">로그인</button> 
                   </div>
 
-                  <div class="login_etc">
+                  {/* <div class="login_etc">
                     <ul>
                       <li class="find_id">
                         <a href="/member/information/findid">아이디 찾기</a>
@@ -57,7 +58,7 @@ export default function LoginLayout(){
                         <a href="/member/information/findpw">비밀번호 찾기</a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
                 </div> 
             </div>

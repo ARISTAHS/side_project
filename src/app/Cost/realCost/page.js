@@ -1,6 +1,6 @@
 "use client"
 
-import "@/style/sub_page.css";
+//import "@/style/table.css";  //공용으로 page.js에 css 연결
 import {fetchData} from "@/api/fetchData"; // fetchData 연결
 import { useEffect, useState } from "react";
 

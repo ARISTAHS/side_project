@@ -1,10 +1,13 @@
-// import "@/style/style.css";
-// import "@/style/sub_page.css";
+import "@/style/style.css";
+import "@/style/table.css";
+import RealCost from "./realCost/page";
+import RentCost from "./rentCost/page";
 
-// export default function CostPage(){
-//   return(
-//     <>
-//       <p>부동산 가격 관련 정보 페이지 입니다.</p>
-//     </>
-//   );
-// }
+export default function CostPage(){
+  return(
+    <>
+      <RealCost />
+      <RentCost />
+    </>
+  );
+}
