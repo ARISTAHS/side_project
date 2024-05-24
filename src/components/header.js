@@ -5,6 +5,7 @@
 import Link from "next/link";
 import "../style/style.css";
 import Image from "next/image";
+import logo from "/public/logo_image.png";
 
 export default function headers(){
   return(
@@ -12,19 +13,19 @@ export default function headers(){
       <header id="header">
         <h1>
           <Link href="/">
-            <Image src="" alt="로고 이미지 자리" />
+            <Image src={logo} alt="로고 이미지" />
           </Link>
         </h1>
         
         <nav id="nav">
           <ul className="nav_wrap">
             <li>
-              <Link href="../app/Cost/realCost">
+              <Link href="../Cost/realCost">
                 <span>실거래가</span>
               </Link>
             </li>
             <li>
-              <Link href="../app/Cost/rentCost">
+              <Link href="../Cost/rentCost">
                 <span>전월세</span>
               </Link>
             </li>
@@ -34,7 +35,7 @@ export default function headers(){
               </Link>
             </li>
             <li>
-              <Link href="/src/app/login">
+              <Link href="../login">
                 <span>login</span>
               </Link>
             </li>
