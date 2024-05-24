@@ -34,7 +34,7 @@ export default function headers(){
               </Link>
             </li>
             <li>
-              <Link href="../app/login">
+              <Link href="/src/app/login">
                 <span>login</span>
               </Link>
             </li>
