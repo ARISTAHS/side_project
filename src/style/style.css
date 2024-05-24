@@ -94,6 +94,7 @@
     height: auto;
     position: relative;  /* 해당 속성 지우니 버튼 이동 중 걸림 현상 발생.*/
     background: #ddd;
+    gap: 20px;
 
     & .address_wrap{
       text-align: center;

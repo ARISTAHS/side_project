@@ -1,15 +1,16 @@
-import "../style/style.css"
+import "@/style/style.css"
 import TopMove from "./topBtn";
-// import Image from "next/image";
+import Image from "next/image";
+import logo from "/public/logo_image.png";
 
 export default function footer(){
   return(
     <>
       <footer id="footer">
         <TopMove/>
-        {/* <div className="footer_logo">
-           <Image src="" alt="푸터 영역의 로고" />
-        </div> */}
+        <div className="footer_logo">
+           <Image src={logo} alt="푸터 영역의 로고" />
+        </div>
         <div className="address_wrap">
           <address>
             <p>개인 포트폴리오를 위한 작업물입니다.</p>

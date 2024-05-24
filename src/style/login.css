@@ -1,0 +1,28 @@
+.login_layout{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: none;
+
+  form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: auto;
+
+    fieldset{
+      width: inherit;
+      height: inherit;
+
+      .login_area{
+        background: #ff99ee;
+        padding: 20px 10px;
+
+
+      }
+    }
+  }
+
+}

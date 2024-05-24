@@ -23,12 +23,12 @@ export default function LoginForm(){
 
                     <div className="login_input">
                       <label for="idTxt">아이디</label>
-                      <input type="text"  id="user_id" name="user_id" tabindex="1" placeholder="아이디를 입력하세요." onFocus="this.placeholder=''" onBlur="this.placeholder='아이디를 입력하세요.'" validation="true"  />
+                      <input type="text"  id="user_id" name="user_id" tabindex="1" placeholder="아이디를 입력하세요."  validation="true"  />
                     </div>
 
                     <div className="login_input">
                       <label for="pwTxt">비밀번호</label>
-                      <input type="password" id="password" name="password" tabindex="2" value="" min="1" max="12" placeholder="비밀번호를 입력하세요." onFocus="this.placeholder=''" onBlur="this.placeholder='비밀번호를 입력하세요.'" validation="true" />
+                      <input type="password" id="password" name="password" tabindex="2" value="" min="1" max="12" placeholder="비밀번호를 입력하세요." validation="true" />
                     </div> 
 
                   </div>
