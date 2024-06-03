@@ -1,4 +1,6 @@
-// import "../style/globals.css";
+import "../style/style.css";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export const metadata = {
   title: "title 미정",
@@ -9,7 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <body>
-        {children}
+        <div id="wrap">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
