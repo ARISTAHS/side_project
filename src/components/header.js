@@ -20,12 +20,12 @@ export default function headers(){
         <nav id="nav">
           <ul className="nav_wrap">
             <li>
-              <Link href="../Cost/realCost">
+              <Link href="./Cost/realCost">
                 <span>실거래가</span>
               </Link>
             </li>
             <li>
-              <Link href="../Cost/rentCost">
+              <Link href="./Cost/rentCost">
                 <span>전월세</span>
               </Link>
             </li>
